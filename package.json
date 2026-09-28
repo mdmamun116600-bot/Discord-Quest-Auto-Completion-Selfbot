@@ -1,28 +1,14 @@
 {
-  "name": "discord-quest-selfbot",
+  "name": "samp-discord-bot",
   "version": "1.0.0",
-  "description": "demo",
+  "description": "Unified Discord Bot for SA-MP Server",
   "main": "index.js",
   "scripts": {
-    "start": "tsx --env-file=.env bot.ts"
-  },
-  "keywords": [],
-  "author": "aiko-chan-ai",
-  "license": "GPL-3.0-only",
-  "type": "commonjs",
-  "engines": {
-    "node": ">=24"
-  },
-  "devDependencies": {
-    "@types/node": "^24.10.1",
-    "discord-api-types": "^0.38.34",
-    "tsx": "^4.20.6",
-    "typescript": "^5.8.3"
+    "start": "node index.js"
   },
   "dependencies": {
-    "@discordjs/core": "2.4.0",
-    "@discordjs/rest": "2.6.0",
-    "@discordjs/ws": "2.0.4",
-    "undici": "6.21.3"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.7"
   }
 }
